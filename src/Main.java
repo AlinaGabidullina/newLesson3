@@ -1,89 +1,89 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println( "задание 1 ");
+        System.out.println( "Р·Р°РґР°РЅРёРµ 1 ");
         int clientsOs = 0;
         if (clientsOs == 0) {
-            System.out.println("Установите версию для приложения iOs по ссылке");
+            System.out.println("РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РІРµСЂСЃРёСЋ РґР»СЏ РїСЂРёР»РѕР¶РµРЅРёСЏ iOs РїРѕ СЃСЃС‹Р»РєРµ");
         }
         else if ( clientsOs ==1) {
-            System.out.println( "Установите версию для приложения Android по ссылке");
+            System.out.println( "РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РІРµСЂСЃРёСЋ РґР»СЏ РїСЂРёР»РѕР¶РµРЅРёСЏ Android РїРѕ СЃСЃС‹Р»РєРµ");
         }
-        System.out.println("Задание 2");
+        System.out.println("Р—Р°РґР°РЅРёРµ 2");
         int clientDeviceYear = 2012;
         int clientsiOs = 0;
         if (clientDeviceYear <2015 ){
             if (clientsiOs ==0) {
-                System.out.println(" Установите облегченную версию  для iOs ");
+                System.out.println(" РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РѕР±Р»РµРіС‡РµРЅРЅСѓСЋ РІРµСЂСЃРёСЋ  РґР»СЏ iOs ");
             } else if ( clientsiOs ==1) {
-                System.out.println(" Установите облегченную версию для Android ");
+                System.out.println(" РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РѕР±Р»РµРіС‡РµРЅРЅСѓСЋ РІРµСЂСЃРёСЋ РґР»СЏ Android ");
             }
             else {
                 if (clientsiOs ==0) {
-                    System.out.println(" Установите  версию  для iOs");
+                    System.out.println(" РЈСЃС‚Р°РЅРѕРІРёС‚Рµ  РІРµСЂСЃРёСЋ  РґР»СЏ iOs");
                 } else if (clientsiOs ==1) {
-                    System.out.println("Установите версию для Android ");
+                    System.out.println("РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РІРµСЂСЃРёСЋ РґР»СЏ Android ");
                 }
                 }
-            System.out.println(" Заданиеи 3");
-           // каждый 4 год, но не 100. И  каждый 400 является високосным
+            System.out.println(" Р—Р°РґР°РЅРёРµРё 3");
+           // РєР°Р¶РґС‹Р№ 4 РіРѕРґ, РЅРѕ РЅРµ 100. Р  РєР°Р¶РґС‹Р№ 400 СЏРІР»СЏРµС‚СЃСЏ РІРёСЃРѕРєРѕСЃРЅС‹Рј
            int year =2022;
            if (year %4 ==0 && year %100 !=0 ) {
-               System.out.println(" Год является високосным");
+               System.out.println(" Р“РѕРґ СЏРІР»СЏРµС‚СЃСЏ РІРёСЃРѕРєРѕСЃРЅС‹Рј");
            } else if ( year % 400 ==0) {
-               System.out.println("Год является високосным");
+               System.out.println("Р“РѕРґ СЏРІР»СЏРµС‚СЃСЏ РІРёСЃРѕРєРѕСЃРЅС‹Рј");
            } else {
-               System.out.println("Год не является високосным ");
+               System.out.println("Р“РѕРґ РЅРµ СЏРІР»СЏРµС‚СЃСЏ РІРёСЃРѕРєРѕСЃРЅС‹Рј ");
            }
-            System.out.println("Задание 4");
+            System.out.println("Р—Р°РґР°РЅРёРµ 4");
            int deliveryDistance= 100;
            if (deliveryDistance<20 ){
-               System.out.println("Потребуется сутки для доставки");
+               System.out.println("РџРѕС‚СЂРµР±СѓРµС‚СЃСЏ СЃСѓС‚РєРё РґР»СЏ РґРѕСЃС‚Р°РІРєРё");
            } else {
                int days =1;
                int delta =( deliveryDistance-20)/40;
                days=days + delta + 1;
-               System.out.println("Потребуется " + days + "дней для доставки");
+               System.out.println("РџРѕС‚СЂРµР±СѓРµС‚СЃСЏ " + days + "РґРЅРµР№ РґР»СЏ РґРѕСЃС‚Р°РІРєРё");
            }
-            System.out.println(" Задание 5");
+            System.out.println(" Р—Р°РґР°РЅРёРµ 5");
            int monthNumber =12;
            if (monthNumber> 12) {
-               System.out.println(" Такого месяца не существует");
+               System.out.println(" РўР°РєРѕРіРѕ РјРµСЃСЏС†Р° РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚");
            } else {
                switch (monthNumber) {
                    case 1 :
-                       System.out.println(" зима ");
+                       System.out.println(" Р·РёРјР° ");
                    case 2 :
-                       System.out.println(" зима ");
+                       System.out.println(" Р·РёРјР° ");
                        break;
                    case 3 :
-                       System.out.println(" весна ");
+                       System.out.println(" РІРµСЃРЅР° ");
                        break;
                    case 4:
-                       System.out.println(" весна ");
+                       System.out.println(" РІРµСЃРЅР° ");
                        break;
                    case 5 :
-                       System.out.println(" весна ");
+                       System.out.println(" РІРµСЃРЅР° ");
                        break;
                    case 6 :
-                       System.out.println(" лето ");
+                       System.out.println(" Р»РµС‚Рѕ ");
                        break;
                    case 7 :
-                       System.out.println(" лето ");
+                       System.out.println(" Р»РµС‚Рѕ ");
                        break;
                    case 8 :
-                       System.out.println(" лето ");
+                       System.out.println(" Р»РµС‚Рѕ ");
                        break;
                    case 9 :
-                       System.out.println(" осень ");
+                       System.out.println(" РѕСЃРµРЅСЊ ");
                        break;
                    case 10 :
-                       System.out.println(" осень ");
+                       System.out.println(" РѕСЃРµРЅСЊ ");
                        break;
                    case 11 :
-                       System.out.println(" осень ");
+                       System.out.println(" РѕСЃРµРЅСЊ ");
                        break;
                    case 12 :
-                       System.out.println(" зима ");
+                       System.out.println(" Р·РёРјР° ");
                }
            }
         }
